@@ -13,6 +13,7 @@ nav{
     justify-content: center;
     position: fixed;
     top: 24px;
+    z-index: 100;
 
     .nav_container{
         display: flex;

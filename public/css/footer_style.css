@@ -1,1 +1,47 @@
-/*# sourceMappingURL=footer_style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@font-face {
+  font-family: stretch pro;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Stretch Pro"), url(../assets/fonts/stretch-pro.otf) format("otf");
+}
+footer .footer_container {
+  display: flex;
+  flex-direction: column;
+  background-color: #400004;
+  padding: 20px 0;
+  color: white;
+  font-family: "Montserrat";
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 769px) {
+  footer .footer_container {
+    gap: 15px;
+  }
+}
+footer .footer_container .footer_logo {
+  width: 80px;
+}
+@media (min-width: 769px) {
+  footer .footer_container .footer_logo {
+    width: 100px;
+  }
+}
+footer .footer_container .footer_logo img {
+  width: 100%;
+}
+footer .footer_container .footer_content p {
+  text-align: center;
+  width: 250px;
+  font-size: 14px;
+}
+@media (min-width: 769px) {
+  footer .footer_container .footer_content p {
+    width: 400px;
+    font-size: 16px;
+  }
+}
+footer .footer_container .footer_copy p {
+  font-size: 10px;
+}/*# sourceMappingURL=footer_style.css.map */

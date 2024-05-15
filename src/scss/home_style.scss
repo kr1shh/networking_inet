@@ -1,0 +1,95 @@
+@import "./variables.scss";
+
+.hero_container{
+    width: 100%;
+    padding: 200px 0 150px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+
+    h1{
+        font-family: $heading;
+        color: $white;
+        letter-spacing: 2px;
+        text-align: center;
+        font-size: 56px;
+        margin: 0;
+        z-index: 1;
+
+        @media(max-width:640px){
+            width: 300px;
+            font-size: 30px;
+        }
+    }
+    p{
+        font-family: $para;
+        color: $white;
+        width: 500px;
+        font-size: 14px;
+        text-align: center;
+        z-index: 1;
+
+        @media(max-width:640px){
+            width: 186px;
+            font-size: 9px;
+        }
+    }
+    a{
+        z-index: 1;
+    }
+    button{
+        font-family: $heading;
+        background-color: $primary;
+        border: 1px solid $white;
+        color: $white;
+        border-radius: 12px;
+        padding: 15px 20px;
+        margin: 40px 0 0 0;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+
+        @media(max-width:640px){
+            padding: 12px 15px;
+            font-size: 10px;
+
+        }
+
+        &:hover{
+            background-color: $white;
+            color: $primary;
+        }
+    }
+
+
+    img{
+        position: absolute;
+        width: 900px;
+        opacity: .3;
+        z-index: 0;
+    }
+
+    .overlay_1{
+        right: -300px;
+        transform: scale(-1,-1);
+
+        @media(max-width: 768px){
+            right: -500px;
+        }
+        @media(max-width:640px){
+            top: 130px;
+        }
+    }
+    .overlay_2{
+        left: -300px;
+
+        @media(max-width: 768px){
+            left: -500px;
+        }
+        @media(max-width:640px){
+            bottom:200px;
+        }
+    }
+}

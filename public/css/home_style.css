@@ -1,1 +1,103 @@
-/*# sourceMappingURL=home_style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@font-face {
+  font-family: stretch pro;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Stretch Pro"), url(../assets/fonts/stretch-pro.otf) format("otf");
+}
+.hero_container {
+  width: 100%;
+  padding: 200px 0 150px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+.hero_container h1 {
+  font-family: "Stretch Pro";
+  color: white;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 56px;
+  margin: 0;
+  z-index: 1;
+}
+@media (max-width: 640px) {
+  .hero_container h1 {
+    width: 300px;
+    font-size: 30px;
+  }
+}
+.hero_container p {
+  font-family: "Montserrat";
+  color: white;
+  width: 500px;
+  font-size: 14px;
+  text-align: center;
+  z-index: 1;
+}
+@media (max-width: 640px) {
+  .hero_container p {
+    width: 186px;
+    font-size: 9px;
+  }
+}
+.hero_container a {
+  z-index: 1;
+}
+.hero_container button {
+  font-family: "Stretch Pro";
+  background-color: #500207;
+  border: 1px solid white;
+  color: white;
+  border-radius: 12px;
+  padding: 15px 20px;
+  margin: 40px 0 0 0;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+@media (max-width: 640px) {
+  .hero_container button {
+    padding: 12px 15px;
+    font-size: 10px;
+  }
+}
+.hero_container button:hover {
+  background-color: white;
+  color: #500207;
+}
+.hero_container img {
+  position: absolute;
+  width: 900px;
+  opacity: 0.3;
+  z-index: 0;
+}
+.hero_container .overlay_1 {
+  right: -300px;
+  transform: scale(-1, -1);
+}
+@media (max-width: 768px) {
+  .hero_container .overlay_1 {
+    right: -500px;
+  }
+}
+@media (max-width: 640px) {
+  .hero_container .overlay_1 {
+    top: 130px;
+  }
+}
+.hero_container .overlay_2 {
+  left: -300px;
+}
+@media (max-width: 768px) {
+  .hero_container .overlay_2 {
+    left: -500px;
+  }
+}
+@media (max-width: 640px) {
+  .hero_container .overlay_2 {
+    bottom: 200px;
+  }
+}/*# sourceMappingURL=home_style.css.map */
