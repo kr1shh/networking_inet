@@ -141,4 +141,121 @@
   .about_container p {
     width: 700px;
   }
+}
+
+.offer_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  gap: 50px;
+}
+.offer_container .offer_title span {
+  font-family: "Stretch Pro";
+  font-size: 36px;
+}
+.offer_container .course_sec_1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.offer_container .course_sec_1 .course_container {
+  width: 160px;
+  height: 180px;
+  border: 2px solid white;
+  border-radius: 16px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.offer_container .course_sec_1 .course_container .course_icon {
+  width: 120px;
+}
+.offer_container .course_sec_1 .course_container .course_icon img {
+  width: 100%;
+}
+.offer_container .course_sec_1 .course_container span {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 20px;
+}
+.offer_container .course_sec_1 .course_container a {
+  position: absolute;
+  bottom: -16px;
+}
+.offer_container .course_sec_1 .course_container a button {
+  cursor: pointer;
+  font-family: "Montserrat";
+  border-radius: 9px;
+  background-color: white;
+  color: #500207;
+  border: none;
+  padding: 8px 15px;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+.offer_container .course_sec_1 .course_container a button:hover {
+  color: #8b010a;
+}
+.offer_container .sec_2_head {
+  width: 500px;
+  margin-top: 90px;
+}
+.offer_container .sec_2_head img {
+  width: 100%;
+}
+.offer_container .course_sec_2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 90px;
+}
+.offer_container .course_container {
+  width: 160px;
+  height: 180px;
+  border: 2px solid white;
+  border-radius: 16px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.offer_container .course_container .course_icon {
+  width: 120px;
+}
+.offer_container .course_container .course_icon img {
+  width: 100%;
+}
+.offer_container .course_container span {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 20px;
+}
+.offer_container .course_container a {
+  position: absolute;
+  bottom: -16px;
+}
+.offer_container .course_container a button {
+  cursor: pointer;
+  font-family: "Montserrat";
+  border-radius: 9px;
+  background-color: white;
+  color: #500207;
+  border: none;
+  padding: 8px 15px;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+.offer_container .course_container a button:hover {
+  color: #8b010a;
 }/*# sourceMappingURL=home_style.css.map */
