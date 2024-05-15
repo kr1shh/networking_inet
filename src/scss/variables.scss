@@ -1,0 +1,14 @@
+@font-face {
+    font-family: stretch pro;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Stretch Pro'), url(../assets/fonts/stretch-pro.otf) format('otf')
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+$dark : #1C1C1C;
+$dark2x : #090809;
+$primary : #500207;
+$white : #ffff;
+$heading : "Stretch Pro";
+$para : "Montserrat";
