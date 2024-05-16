@@ -207,6 +207,11 @@
   width: 500px;
   margin-top: 90px;
 }
+@media (max-width: 640px) {
+  .offer_container .sec_2_head {
+    width: 240px;
+  }
+}
 .offer_container .sec_2_head img {
   width: 100%;
 }
@@ -214,6 +219,7 @@
   width: 100%;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
   margin-bottom: 90px;
